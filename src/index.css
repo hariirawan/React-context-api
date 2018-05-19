@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.image-container{
+   height: 150px;
+}
+
+.navbar-container{
+   margin-bottom: 5px;
+}
+
+.navbar-light .navbar-brand {
+   color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: white;
+}
