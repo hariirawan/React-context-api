@@ -19,3 +19,14 @@ body {
 .navbar-light .navbar-nav .nav-link {
    color: white;
 }
+
+.text-center{
+   text-align: center;
+}
+
+.card-border-left{
+   border-left: 1px solid #e7e7e7;
+}
+.header-detail{
+   border-bottom:  1px solid #e7e7e7;
+}
