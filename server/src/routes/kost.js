@@ -36,7 +36,7 @@ router.get('/', (req, res, next) => {
          }
       })
       .catch(err => {
-         console.log(err);
+         console.log("error")
       })
 })
 
@@ -52,9 +52,9 @@ router.post('/', (req, res, next) => {
    kost
       .save()
       .then(res => {
-         console.log(res)
+         console.log("success")
       })
-      .catch(err => console.log(err));
+      .catch(err => err);
    res.status(201).json({
       code: 201,
       message: 'success'
@@ -85,7 +85,7 @@ router.get('/:kostId', (req, res, next) => {
          }
       })
       .catch(error => {
-         console.log(error);
+         console.log("error")
       })
 })
 
